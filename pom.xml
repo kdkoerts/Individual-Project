@@ -12,7 +12,7 @@
     <name>IP Multi-Module Project</name>
 
     <modules>
-        <module>IP-Domain</module>
+        <module>interfaces</module>
         <module>application</module>
         <module>persistence</module>
         <module>web</module>

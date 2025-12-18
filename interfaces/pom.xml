@@ -12,6 +12,6 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>IP-Domain</artifactId>
+    <artifactId>interfaces</artifactId>
     <packaging>jar</packaging>
 </project>
