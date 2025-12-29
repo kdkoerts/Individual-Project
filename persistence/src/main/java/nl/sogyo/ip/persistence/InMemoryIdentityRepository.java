@@ -1,7 +1,6 @@
 package nl.sogyo.ip.persistence;
 
-import nl.sogyo.ip.interfaces.IdentityRepository;
-import nl.sogyo.ip.
+import  nl.sogyo.ip.interfaces.IdentityRepository;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
