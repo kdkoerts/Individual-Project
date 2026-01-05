@@ -1,6 +1,5 @@
 package nl.sogyo.ip.web.controllers;
 
-import nl.sogyo.domain.User;
 import nl.sogyo.ip.application.dto.LoginRequest;
 import nl.sogyo.ip.application.UserService;
 import nl.sogyo.ip.application.dto.UserRegistrationDTO;
