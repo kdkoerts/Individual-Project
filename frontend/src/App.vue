@@ -1,14 +1,7 @@
 <script setup>
-import { ref, onMounted } from 'vue'
-
-const message = ref('')
-
-onMounted(async () => {
-  const response = await fetch('http://localhost:8080/api/hello')
-  message.value = await response.text()
-})
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <h1>{{ message }}</h1>
+  <RouterView />
 </template>

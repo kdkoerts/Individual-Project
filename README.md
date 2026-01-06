@@ -19,7 +19,7 @@ cd ..
 ### Frontend
 
 ```
-cd client
+cd frontend
 npm install
 
 # Start the front-end server
