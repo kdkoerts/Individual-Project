@@ -15,6 +15,7 @@ const register = async () => {
     const response = await fetch('http://localhost:8080/api/auth/register', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
+      credentials: 'include',
       body: JSON.stringify({
         firstname: firstname.value,
         lastName: lastName.value,
